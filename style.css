@@ -91,7 +91,7 @@ textarea {
   }
 
   #survey-form {
-    background-color: rgb(0, 0, 0, 0.8);
+    background-color: rgba(224, 17, 17, 0.902);
     width: 80%;
     margin: auto;
   }
