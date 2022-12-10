@@ -81,3 +81,19 @@ textarea {
 #feedback {
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  #container {
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #survey-form {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+  }
+}
