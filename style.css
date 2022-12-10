@@ -82,7 +82,7 @@ textarea {
   width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 500px) {
   #container {
     width: 95%;
     margin: 0 auto;
