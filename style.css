@@ -82,17 +82,14 @@ textarea {
   width: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   #container {
     width: 95%;
-    margin: 0 auto;
-    background-color: rgb(0, 0, 0, 0.3);
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
   }
 
   #survey-form {
-    background-color: rgba(224, 17, 17, 0.902);
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    padding: 2rem;
   }
 }
