@@ -7,53 +7,55 @@
 body {
   background-image: url(background_image\ netflix.jpg);
   color: white;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  display: flex;
-  justify-content: center;
+  font-family: "Roboto", sans-serif;
+
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 #container {
-  width: 85%;
-  margin: 0 auto;
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 30px;
   background-color: rgb(0, 0, 0, 0.3);
-  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
 }
 
 #title {
   font-family: "Bowlby One Sc", cursive;
   text-align: center;
   color: white;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 4rem;
+  letter-spacing: 0.05em;
 }
 #flix {
   color: red;
 }
 #description {
-  color: white;
   text-align: center;
   font-family: "Sorts Mill Goudy", serif;
   font-style: italic;
-  font-size: 23px;
-  font-weight: 400;
 }
 
 #survey-form {
   background-color: rgb(0, 0, 0, 0.8);
-  width: 40%;
-  padding: 40px;
+  width: 500px;
+  padding: 30px 40px;
   margin: auto;
+  /* margin-bottom: 40px; */
 }
 
 .box {
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-top: 10px;
 }
 
 #submit {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
 }
 
 button {
@@ -62,6 +64,7 @@ button {
   width: 160px;
   height: 45px;
   border-radius: 50px;
+  margin-top: 20px;
 }
 button:hover {
   cursor: pointer;
@@ -80,6 +83,13 @@ textarea {
 #content,
 #feedback {
   width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#checkbox,
+#radio {
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 800px) {
